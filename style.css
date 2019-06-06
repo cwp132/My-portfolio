@@ -1,5 +1,9 @@
-.card {
+#skills {
     margin: 15px;
+}
+
+#projectCards {
+    margin: 30px;
 }
 
 #bio-text {
@@ -38,15 +42,16 @@ form {
 
 #node.js-logo {
     margin: 60px;
+    margin-top: 20px;
 }
 
-#bio {
-    margin-left: 200px;
+#bioJumbo {
+    display: block;
+    margin: 0px;
 }
-
-#contact-head {
+/* #contact-head {
     margin-left: 635px;
-}
+} */
 
 
 #node-text {
@@ -58,10 +63,34 @@ form {
 
 }
 
-#email {
-    margin-left: 35px;
+#bootstrap {
+    margin-top: 40px;
+    margin-left: 29px;
+    width: 230px;
+    height: 230px;
 }
+
+/* #email {
+    margin-left: 35px;
+} */
 
 #tech {
     margin-left: 75px;
+}
+
+.fa-github {
+    margin-left: 30px;
+}
+
+.fa-linkedin {
+    margin-left: 30px;
+}
+
+#resume{
+    float: right;
+}
+
+#resumeLink {
+    float: right;
+    margin-left: 20px;
 }

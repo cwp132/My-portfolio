@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/fbe70ae54b.js"></script>
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -20,41 +21,44 @@
 
 <body>
 
-    <div id="bioJumbo" class="jumbotron jumbotron-fluid ">
+    <div id="bioJumbo" class="jumbotron">
         <div id="bio" class="container text-center">
-            <div class="col">
-                <div id="please-work" class="row">
-                    <h1 class="display-4">Christian Petersen</h1>
-                    <div class="container">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./christian.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <a href="https://github.com/cwp132" target="_blank" class=" card-link">Github</a>
-                                <a href="https://www.linkedin.com/in/christian-petersen-33198a174/" target="_blank"
-                                    class="card-link">Linkedin</a>
-                            </div>
+
+            <div id="please-work" class="row">
+                <h1 class="display-4">Christian Petersen</h1>
+                <div class="container">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/christian.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a target="_blank" href="https://github.com/cwp132" class="fab fa-github fa-3x"></a>
+                            <!-- <a href="https://github.com/cwp132" target="_blank" class=" card-link">Github</a> -->
+                            <a target="_blank" href="https://www.linkedin.com/in/christian-petersen-33198a174/"
+                                class="fab fa-linkedin fa-3x"></a>
+                            <!-- <a href="https://www.linkedin.com/in/christian-petersen-33198a174/" target="_blank"
+                                class="card-link">Linkedin</a> -->
                         </div>
                     </div>
-                    <p id="bio-text" class="lead align-center">
-                        I am a student at The Univirsity of Utah's Coding Bootcamp<br>
-                        My current job is a wearhouse manager at Tim Dahle Nissan<br>
-                        I love to learn and I love to work hard.<br>
-                        Outside of coding and work I enjoy working on cars, playing video <br>
-                        games, and hiking. <br>
-
-
-                    </p>
                 </div>
+                <p id="bio-text" class="lead align-center">
+                    I am a student at The Univirsity of Utah's Coding Bootcamp<br>
+                    My current job is a wearhouse manager at Tim Dahle Nissan<br>
+                    I love to learn and I love to work hard.<br>
+                    Outside of coding and work I enjoy working on cars, playing video <br>
+                    games, and hiking. <br>
+
+
+                </p>
             </div>
+
         </div>
 
 
     </div>
     <h2 id="projects">Projects</h2><br>
-    <div class="container fa fa-align-center" aria-hidden="true"></i>
+    <div class="container" aria-hidden="true"></i>
         <div class="row" id="techCode">
-            <div class="card" style="width: 18rem;">
-                <img src="./CHAT-meME.png" class="card-img-top" alt="...">
+            <div class="card" id="projectCards" style="width: 18rem;">
+                <img src="./images/CHAT-meME.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">
                         CHAT.MEme is a GIF based chat app, this
@@ -66,31 +70,26 @@
                 </div>
             </div>
 
-            <div class="card" style="width: 18rem;">
-                <img src="./crystal-collector.png" class="card-img-top" alt="...">
+            <div class="card" id="projectCards" style="width: 18rem;">
+                <img src="./images/billPay.db.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <p class="card-text">Crystal Collector is a jQuery based adding game.
-                        The object of the game is to match the number in the green box with
-                        the number in the red box, the number in the red box is added by clicking
-                        the gems but the gems are random numbers each game.
+                    <p class="card-text">Bill Pay is a money tracker for your receipts, ious, and bills. You are also
+                        able to keep track of due dates on your bills so you never have a late payment again!
                     </p>
-                    <a href="https://cwp132.github.io/The-Crystal-Collector/" target="_blank" class="card-link">Crystal
-                        Collector</a>
+                    <a href="https://github.com/Larrabee55/billPay" target="_blank" class="card-link">Bill Pay</a>
                 </div>
             </div>
 
-            <div class="card" style="width: 18rem;">
-                <img src="./car-trivia.png" class="card-img-top" alt="...">
+            <div class="card" id="projectCards" style="width: 18rem;">
+                <img src="./images/tasker.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <p class="card-text">The Car Trivia Game is a simple quiz
-                        testing your knowledge on a varity of
-                        cars brands, this project taught me
-                        the importance of good documentation
-                        (Moment.js) </p>
+                    <p class="card-text">Tasker is a task tracking app. Type a task in the text box at the bottom, it
+                        will appear as a button, click the button to complete the task. Tasker utilizes handlebars.js
+                        for
+                        displaying tasks
+                        and mySQL for the database.</p>
 
-                    <a href="https://cwp132.github.io/The-Car-Trivia-Game/" target="_blank" class="card-link">Car
-                        Trivia
-                        Game</a>
+                    <a href="https://taskerburger.herokuapp.com/" target="_blank" class="card-link">Tasker</a>
                 </div>
             </div>
         </div>
@@ -100,75 +99,76 @@
         <div class="container">
             <h1 class="display-4">Tech, librarys, and Launguages</h1>
             <div id="tech" class="container row">
-                <div class="card" style="width: 18rem;">
-                    <img src="./javascript.png" id="javascript" class="card-img-top" alt="javaScript logo">
+                <div class="card" id="skills" style="width: 18rem;">
+                    <img src="./images/javascript.png" id="javascript" class="card-img-top" alt="javaScript logo">
                     <div class="card-body">
                         <p class="card-text">javaScript</p>
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">
-                    <img src="./jquery-logo.png" class="card-img-top" id="jQuery" alt="jQuery logo">
+                <div class="card" id="skills" style="width: 18rem;">
+                    <img src="./images/jquery-logo.png" class="card-img-top" id="jQuery" alt="jQuery logo">
                     <div class="card-body">
                         <p class="card-text">jQuery</p>
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">
-                    <img src="./ajax.svg" class="card-img-top" id="ajax" alt="AJAX logo">
+                <div class="card" id="skills" style="width: 18rem;">
+                    <img src="./images/ajax.svg" class="card-img-top" id="ajax" alt="AJAX logo">
                     <div class="card-body">
                         <p class="card-text">AJAX</p>
                     </div>
                 </div>
 
                 <div class="container row">
-                    <div class="card" id="firebaseCard1" style="width: 18rem;">
-                        <img src="./firebase-logo.png" class="card-img-top" id="firebase-logo" alt="firebase logo">
+                    <div class="card" id="skills" id="firebaseCard1" style="width: 18rem;">
+                        <img src="./images/firebase-logo.png" class="card-img-top" id="firebase-logo"
+                            alt="firebase logo">
                         <div class="card-body">
                             <p class="card-text">Firebase</p>
                         </div>
                     </div>
 
-                    <div class="card" style="width: 18rem;">
-                        <img src="./bootstrap-logo.jpg" id="bootstrap" class="card-img-top" alt="...">
+                    <div class="card" id="skills" style="width: 18rem;">
+                        <img src="./images/mysql.png" id="bootstrap" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p id="firebase-text" class="card-text">Bootstrap</p>
+                            <p id="firebase-text" class="card-text">MySQL</p>
                         </div>
                     </div>
 
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" id="skills" style="width: 18rem;">
                         <div id="node.js">
-                            <img src="nodejs-logo.png" class="card-img-top" alt="node.js-logo">
+                            <img src="./images/nodejs-logo.png" class="card-img-top" alt="node.js-logo">
                         </div>
                         <div class="card-body">
                             <p id="node-text" class="card-text">Node.js</p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-
-
-
-
     </div>
 
-    <footer>
+    <div class="container">
+        <footer>
+            <h2 id="contact-head" id="contact-head">Contact me</h2>
+            <div id="email">
+            </div>
+            <div id="email" class="float-left">
+                <h3>christianwpetersen952@gmail.com</h3>
+            </div>
+            <div>
 
-        <h2 id="contact-head" id="contact-head">Contact me</h2>
-        <div id="email">
-        </div>
-        <div id="email" class="float-left">
-            <h3>christianwpetersen952@gmail.com</h3>
-        </div>
-
-        <div id="num" class="float-right">
-            
-        </div>
-
-    </footer>
-
+                <h3 id="resume">Looking for Devs?</h3>
+                <br>
+                <br>
+                <a target="_blank" id="resumeLink"
+                    href="https://docs.google.com/document/d/1v74ut9qAfrreIHCll7X58bUHa2zkNjeXhhX2CTNz5Rg/edit">Consider
+                    Me!</a>
+                <href></href>
+            </div>
+        </footer>
+    </div>
 </body>
 
 <script src="./storage.js"></script>
