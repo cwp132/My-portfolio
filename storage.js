@@ -30,3 +30,12 @@
 //         message: message,
 //     })
 // })
+function bullets(dragons) {
+    let bulletCount;
+    if (dragons === true) {
+        bulletCount - 2;
+    } else {
+        return false;
+    }
+    return true;
+}
