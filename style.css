@@ -37,12 +37,12 @@ form {
 }
 
 #firebase-text {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 #node.js-logo {
-    margin: 60px;
-    margin-top: 20px;
+    
+    margin-top: 40px;
 }
 
 #bioJumbo {
@@ -55,7 +55,7 @@ form {
 
 
 #node-text {
-    margin-top: 95px;
+    margin-top: 75px;
 }
 
 #num {
@@ -93,4 +93,18 @@ form {
 #resumeLink {
     float: right;
     margin-left: 20px;
+}
+
+#mainCard {
+    margin-left: 90px
+}
+
+#myName {
+    margin-left: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+   {
+   
+  }
 }
