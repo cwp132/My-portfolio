@@ -37,12 +37,16 @@ form {
 }
 
 #firebase-text {
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
-#node.js-logo {
+#javascript-text {
+    margin-bottom: 25px;
+}
+
+#node.js {
     
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 #bioJumbo {
@@ -55,7 +59,7 @@ form {
 
 
 #node-text {
-    margin-top: 75px;
+    margin-top: 55px;
 }
 
 #num {
