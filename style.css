@@ -57,6 +57,13 @@ form {
     margin-left: 635px;
 } */
 
+#footJumbo {
+    background-color: white;
+}
+
+#projectJumbo {
+    background-color: white;
+}
 
 #node-text {
     margin-top: 55px;
